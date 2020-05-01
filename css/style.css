@@ -1,3 +1,7 @@
-body {
-  background-image: url("media/parrallax-one.png");
+.title {
+
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    position: center;
+    font-size: 20px;
 }
