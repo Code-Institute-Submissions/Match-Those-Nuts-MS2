@@ -16,6 +16,14 @@ body {
     display: flex;
 }
 
+.header {
+  padding: 60px;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  position: absolute;
+}
+
 /*--------Card Game Container---------*/
 .memory-game {
     width: 640px;
@@ -46,7 +54,7 @@ body {
 
 /*---------Card Game Interactivity-----------*/
 .memory-card:active {
-    transform: scale(1.10);
-    transition: transform .02s;
+    transform: scale(.80);
+    transition: transform .1s;
 
 }
