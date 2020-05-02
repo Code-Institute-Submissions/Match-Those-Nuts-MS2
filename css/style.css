@@ -42,6 +42,11 @@ body {
     transform: scale(1);
 }
 
+/*-------Game Card Flip---------*/
+.memory-card.flip {
+    transform: rotateY(180deg);
+}
+
 /*---------Card Fronts and Backs---------*/
 .front-face,
 .back-face {
@@ -54,7 +59,7 @@ body {
 
 /*---------Card Game Interactivity-----------*/
 .memory-card:active {
-    transform: scale(.80);
-    transition: transform .1s;
+    transform: scale(.88);
+    transition: transform .02s;
 
 }
