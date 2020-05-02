@@ -31,6 +31,7 @@ body {
     height: calc(25% - 10px);
     margin: 5px;
     position: relative;
+    transform: scale(1);
 }
 
 /*---------Card Fronts and Backs---------*/
@@ -41,4 +42,11 @@ body {
     padding: 1px;
     position: absolute;
     border-radius: 10px;
+}
+
+/*---------Card Game Interactivity-----------*/
+.memory-card:active {
+    transform: scale(1.10);
+    transition: transform .02s;
+
 }
