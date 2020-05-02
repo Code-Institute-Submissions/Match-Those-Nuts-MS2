@@ -55,11 +55,16 @@ body {
     padding: 1px;
     position: absolute;
     border-radius: 10px;
+    backface-visibility: hidden;
 }
 
 /*---------Card Game Interactivity-----------*/
 .memory-card:active {
     transform: scale(.88);
     transition: transform .02s;
+}
 
+/*----------Flip to see Front Face-----------*/
+.front-face {
+    transform: rotateY(180deg);
 }
