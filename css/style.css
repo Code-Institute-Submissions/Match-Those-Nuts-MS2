@@ -74,3 +74,29 @@ body {
 .front-face {
     transform: rotateX(180deg);
 }
+
+
+
+ #info-msg {
+    font-size: 1.5rem;
+    position: relative;
+    margin: auto;
+    height: 250px;
+    width: 500px;
+    z-index: 10;
+    background-color: rgba(0,0,0,0.9);
+    border-radius: 10px;
+    padding-top: 20px;
+}
+
+#info-msg {    
+    font-size: 1.2rem;
+    height: 200px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#info-msg a {
+    color: #dadada;
+    text-decoration: none;
+}

@@ -42,7 +42,7 @@ function unflipCards() {
     secondCard.classList.remove('flip');
 
     resetBoard();
-  }, 1500);
+  }, 1000);
 }
 
 function resetBoard() {
@@ -58,3 +58,15 @@ function resetBoard() {
 })();
 
 cards.forEach(card => card.addEventListener('click', flipCard));
+
+
+
+
+
+const info = document.getElementById('info-msg');
+
+function windowClose() {
+    info.style.display = 'none';
+    done.style.display = 'none';
+    lockBoard = true;
+} 
