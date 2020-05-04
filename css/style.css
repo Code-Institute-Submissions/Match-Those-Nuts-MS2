@@ -31,6 +31,7 @@ body {
     margin: auto;
     display: flex;
     flex-wrap: wrap;
+    perspective: 1000px;
 }
 
 /*---------Game Cards-----------*/
@@ -40,11 +41,14 @@ body {
     margin: 5px;
     position: relative;
     transform: scale(1);
+    transform-style: preserve-3d;
+    transition: transform .5s;
+
 }
 
 /*-------Game Card Flip---------*/
 .memory-card.flip {
-    transform: rotateY(180deg);
+    transform: rotateX(180deg);
 }
 
 /*---------Card Fronts and Backs---------*/
@@ -53,18 +57,20 @@ body {
     width: 100%;
     height: 100%;
     padding: 1px;
+    border: 1px solid white;
     position: absolute;
     border-radius: 10px;
     backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
 }
 
 /*---------Card Game Interactivity-----------*/
 .memory-card:active {
-    transform: scale(.88);
+    transform: scale(.93);
     transition: transform .02s;
 }
 
 /*----------Flip to see Front Face-----------*/
 .front-face {
-    transform: rotateY(180deg);
+    transform: rotateX(180deg);
 }
