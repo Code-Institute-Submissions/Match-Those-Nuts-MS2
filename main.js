@@ -21,52 +21,41 @@ secondCard = this;                      //second card clicked
 checkForMatch();
 }
 
-function checkForMatch() {
-  let isMatch = firstCard.dataset.image === secondCard.dataset.image;
+function checkForMatch() {              //card matching 
+    let isMatch = firstCard.dataset.image === secondCard.dataset.image;
 
-  isMatch ? disableCards() : unflipCards();
+    isMatch ? disableCards() : unflipCards();    //if match
 }
 
 function disableCards() {
-  firstCard.removeEventListener('click', flipCard);
-  secondCard.removeEventListener('click', flipCard);
+    firstCard.removeEventListener('click', flipCard);     //removes event listener if cards match
+    secondCard.removeEventListener('click', flipCard);
 
-  resetBoard();
+    resetBoard();
 }
 
 function unflipCards() {
-  lockBoard = true;
-
-  setTimeout(() => {
+    lockBoard = true;
+    setTimeout(() => {                            //not a match, removes flip from front, to back.
     firstCard.classList.remove('flip');
     secondCard.classList.remove('flip');
 
-    resetBoard();
+    resetBoard();                               //amount of time between clicks before flip back
   }, 1000);
 }
 
-function resetBoard() {
-  [hasFlippedCard, lockBoard] = [false, false];
-  [firstCard, secondCard] = [null, null];
+function resetBoard() {                         //
+    [hasFlippedCard, lockBoard] = [false, false];
+    [firstCard, secondCard] = [null, null];
 }
 
-(function shuffle() {
-  cards.forEach(card => {
+(function shuffle() {                           //shuffling function
+    cards.forEach(card => {
     let randomPos = Math.floor(Math.random() * 12);
     card.style.order = randomPos;
   });
-})();
+})();                                           //immediately invoked function, so cards shuffle at beginning
 
 cards.forEach(card => card.addEventListener('click', flipCard));
 
 
-
-
-
-const info = document.getElementById('info-msg');
-
-function windowClose() {
-    info.style.display = 'none';
-    done.style.display = 'none';
-    lockBoard = true;
-} 
