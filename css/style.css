@@ -87,7 +87,7 @@ body {
 
  #info-msg {
     font-size: 1.5rem;
-    display: inline-block;
+    text-align: center;
     font-family: 'Luckiest Guy', cursive;
     position: relative;
     margin: auto;
