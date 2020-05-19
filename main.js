@@ -59,3 +59,10 @@ function resetBoard() {                         //
 cards.forEach(card => card.addEventListener('click', flipCard));
 
 
+var timer = new Timer();                       //timer function
+timer.start();
+timer.addEventListener('secondsUpdated', function (e) {
+    $('#countUp').html(timer.getTimeValues().toString());
+});
+    
+
