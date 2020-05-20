@@ -26,8 +26,9 @@ there was no viable way to make all the cards fit down into smaller screens.
 ## Technologies Used
 * HTML
 * CSS
-* JavaScript
-* [Google Fonts](https://fonts.google.com)
+* JavaScript - card flipping
+* Jquery  - moves counter
+* [Google Fonts](https://fonts.google.com) - font for game
 * [Bootstrap 4](https://getbootstrap.com/)
 * [GitHub Desktop](https://desktop.github.com/)
 * [Font awesome](https://fontawesome.com/)

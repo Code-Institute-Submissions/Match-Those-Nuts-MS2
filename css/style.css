@@ -117,7 +117,13 @@ body {
 
 /*--------Button Styling--------*/
 
-.button {
+button {
 
     font-family: 'Luckiest Guy', cursive;
+}
+
+
+.info {
+    font-size: 0.4rem;
+}
 }

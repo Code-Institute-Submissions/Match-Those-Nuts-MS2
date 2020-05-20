@@ -23,12 +23,13 @@ secondCard = this;                      //second card clicked
 checkForMatch();
 }
 
-function checkForMatch() {              //card matching 
-    let isMatch = firstCard.dataset.image === secondCard.dataset.image;
-        isMatch ? disableCards() : unflipCards(); 
+ function checkForMatch() {
+        let isMatch = firstCard.dataset.image === secondCard.dataset.image;
+        isMatch ? disableCards() : unflipCards();
         moveCounter++;
-        $('#moves').html(moveCounter);   
-}
+        $('#moves').html(moveCounter);
+        
+    }
 
 function disableCards() {
     firstCard.removeEventListener('click', flipCard);     //removes event listener if cards match
