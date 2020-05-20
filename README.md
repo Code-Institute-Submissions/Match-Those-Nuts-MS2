@@ -1,11 +1,15 @@
 # Match Those Nuts!
 
+
+[Live Page](https://diomcferreira.github.io/Match-That-Dough-MS2/)
+
 ## About
 
 The purpose of this game was to create and build a single webpage. A card matching game that is super colorful and fun to play. The overall purpose of this game was to showcase my Javascript skills I've learned recently through Code Academy. 
 
 I specifically chose this game because the central theme of revolves around doughnuts. That's important to me since I actually work in a doughnut shop and want to showcase this game in the future in the shop as a way for customers to engage with us and our products. The idea is for people to play the game and whoever solved it the fastest or under a certain amount of clicks would win a prize.
 Therefore, all the photos used in this game are from the actual doughnuts we sell in the shop and all the flavours of doughnuts we make.
+
 
 ## Important
 Timer function does not work well. Does not stop when all cards flipped. However, I still wanted to put it in the game, just to see if I could. 
@@ -16,6 +20,8 @@ The reason it can't be formatted for smaller screens is that due to the amount o
 there was no viable way to make all the cards fit down into smaller screens. 
 
 ## UX
+
+## Wireframes
 
 ### User Stories
 * The user can see the instructions on the left side of the game. They can play a game right away to practice or start the timer and go for a timed run. 
@@ -60,6 +66,7 @@ Chrome Developer Tools was used to make sure game worked properly.
 Several friends were asked to solve game, error check.
 
 Manual testing:
+
 Clicked on overlay over the whole window area with no error
 Clicking multiple cards at once.
 Checking for grammar, syntax and spelling mistakes in game, code or comments.
@@ -74,4 +81,14 @@ This project is hosted using GitHub pages, deployed from the master branch. The 
 
 If you want run the project locally you need to clone the repository directly into your favorite editor by writing to the terminal the following: `git clone https://github.com/diomcferreira/Match-That-Dough-MS2`.
 
+## Media
+All photos in this project were used with permission and/or taken by me for this project alone.
 
+## Acknowledgements
+The inspiration for this project was from the shop I work at - My Ugly Baby. I thought I could do something fun that customers could play and drive attention to our brand and business.
+
+Special thanks to:
+Everyone I work with
+Jorgen for hiring me
+Code Institute
+Caroline Rodvik for putting up with me talking about this project for a long time
