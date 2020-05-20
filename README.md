@@ -1,7 +1,7 @@
 # Match Those Nuts!
 
 
-[Live Page](https://diomcferreira.github.io/Match-That-Dough-MS2/)
+[Live Page](https://diomcferreira.github.io/Match-Those-Nuts-MS2/)
 
 ## About
 
@@ -23,7 +23,7 @@ there was no viable way to make all the cards fit down into smaller screens.
 
 ## Wireframes
 
-WireFrames - https://github.com/diomcferreira/Match-That-Dough-MS2/tree/master/wireframes
+WireFrames - https://github.com/diomcferreira/Match-Those-Nuts-MS2/tree/master/wireframes
 
 The wireframes provided are not exactly as the game came out after development, since there is no popup for game start or end. But the overall look of the game stayed pretty much the same,
 so I saw no need to create new wireframes.
