@@ -4,8 +4,6 @@
 </style>
 
 
-
-
 /*-------Overal Page Styling---------*/
 * {
     padding: 0;
@@ -91,7 +89,7 @@ body {
     font-family: 'Luckiest Guy', cursive;
     position: relative;
     margin: auto;
-    height: 450px;
+    height: 420px;
     width: 500px;
     border-radius: 10px;
     padding-top: 15px;
@@ -103,18 +101,23 @@ body {
 /*------------timer info block----------*/
 
 #timer {
-    font-size: 1rem;
+    font-size: .7rem;
     text-align: center;
     font-family: 'Luckiest Guy', cursive;
     position: relative;
     margin: auto;
-    height: 100px;
+    height: 88px;
     width: 200px;
     border-radius: 10px;
     padding-top: 5px;
     border: 1px solid black;
     background-color: #CCFF99;
+}
 
 
+/*--------Button Styling--------*/
 
+.button {
+
+    font-family: 'Luckiest Guy', cursive;
 }
