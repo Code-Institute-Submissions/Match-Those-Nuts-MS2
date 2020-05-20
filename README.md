@@ -42,6 +42,7 @@ there was no viable way to make all the cards fit down into smaller screens.
 * Pop up modal - At the end of game, a modal would pop up with the info (timer and clicks), with a restart button.
 
 
+
 ## Testing
 
 

@@ -7,6 +7,7 @@ let firstCard, secondCard;
 function flipCard() {
   if (lockBoard) return;
   if (this === firstCard) return;
+    
 
   this.classList.add('flip');
 
@@ -101,6 +102,17 @@ clear.onclick = function() {
     seconds = 0; minutes = 0; hours = 0;
 }
 
+
+/* Refreshes page on click */
 function refreshPage(){
     window.location.reload();
 } 
+
+var i = 0;
+
+function Count() {
+    document.getElementById("output").innerHTML = i++ + 1;
+}
+
+
+
