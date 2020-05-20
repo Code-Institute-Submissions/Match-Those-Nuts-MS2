@@ -12,14 +12,14 @@ function flipCard() {
 
   this.classList.add('flip');
 
-  if (!hasFlippedCard) {                //first card clicked
+  if (!hasFlippedCard) {                        //first card clicked
      hasFlippedCard = true;
      firstCard = this;
     
     return;
 }
 
-secondCard = this;                      //second card clicked
+secondCard = this;                              //second card clicked
 checkForMatch();
 }
 
@@ -40,7 +40,7 @@ function disableCards() {
 
 function unflipCards() {
     lockBoard = true;
-    setTimeout(() => {                            //not a match, removes flip from front, to back.
+    setTimeout(() => {                          //not a match, removes flip from front, to back.
     firstCard.classList.remove('flip');
     secondCard.classList.remove('flip');
 
@@ -48,7 +48,7 @@ function unflipCards() {
   }, 1000);
 }
 
-function resetBoard() {                         //
+function resetBoard() {                         
     [hasFlippedCard, lockBoard] = [false, false];
     [firstCard, secondCard] = [null, null];
 }
@@ -63,59 +63,20 @@ function resetBoard() {                         //
 cards.forEach(card => card.addEventListener('click', flipCard));
 
 
-var h1 = document.getElementsByTagName('h1')[0],
-    start = document.getElementById('start'),
-    stop = document.getElementById('stop'),
-    clear = document.getElementById('clear'),
-    seconds = 0, minutes = 0, hours = 0,
-    t;
 
-function add() {
-    seconds++;
-    if (seconds >= 60) {
-        seconds = 0;
-        minutes++;
-        if (minutes >= 60) {
-            minutes = 0;
-            hours++;
-        }
-    }
-    
-    h1.textContent = (hours ? (hours > 9 ? hours : "0" + hours) : "00") + ":" + (minutes ? (minutes > 9 ? minutes : "0" + minutes) : "00") + ":" + (seconds > 9 ? seconds : "0" + seconds);
-
-    timer();
-}
-function timer() {
-    t = setTimeout(add, 1000);
-}
-timer();
-
-
-/* Start button */
-start.onclick = timer;
-
-/* Stop button */
-stop.onclick = function() {
-    clearTimeout(t);
-}
-
-/* Clear button */
-clear.onclick = function() {
-    h1.textContent = "00:00:00";
-    seconds = 0; minutes = 0; hours = 0;
-}
-
-
-/* Refreshes page on click */
+                                                // Refreshes page on click
 function refreshPage(){
     window.location.reload();
+    moveCounter = 0;
 } 
 
-var i = 0;
-
-function Count() {
-    document.getElementById("output").innerHTML = i++ +1;
+                                                // Timer Function
+var c = 0;
+function myCounter() {
+  document.getElementById("demo").innerHTML =  ++c;
 }
-
+// Timer function does not work well. Does not stop when all cards flipped. However, I still wanted to put it in the game, just to see if I could. 
+// The actual game is centered around the amount of moves, not timer. I hope to have the knowledge to update the game with a proper working timer in the near future.
+// I did not want to do a countdown timer, as everyone else seemed to have one. 
 
 

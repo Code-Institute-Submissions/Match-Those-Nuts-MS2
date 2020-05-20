@@ -7,7 +7,10 @@ The purpose of this game was to create and build a single webpage. A card matchi
 I specifically chose this game because the central theme of revolves around doughnuts. That's important to me since I actually work in a doughnut shop and want to showcase this game in the future in the shop as a way for customers to engage with us and our products. The idea is for people to play the game and whoever solved it the fastest or under a certain amount of clicks would win a prize.
 Therefore, all the photos used in this game are from the actual doughnuts we sell in the shop and all the flavours of doughnuts we make.
 
-*important* 
+## Important
+Timer function does not work well. Does not stop when all cards flipped. However, I still wanted to put it in the game, just to see if I could. 
+The actual game is centered around the amount of moves, not timer. I hope to have the knowledge to update the game with a proper working timer in the near future.
+I did not want to do a countdown timer, as everyone else seemed to have one.
 The game should be run on a large screen format. It was specifically made for running on bigger screens as it's to be used as a promotional event at My Ugly Baby (coffee and doughnut shop in Oslo).
 The reason it can't be formatted for smaller screens is that due to the amount of cards used (to make it difficult enough so it's not too easily solved),
 there was no viable way to make all the cards fit down into smaller screens. 
@@ -46,7 +49,7 @@ there was no viable way to make all the cards fit down into smaller screens.
 
 ## Testing
 
-
+Testing 
 
 
 

@@ -84,46 +84,51 @@ body {
 
 /*-----------game info block-------------*/
  #info-msg {
-    font-size: 1.5rem;
+    font-size: 1.9rem;
     text-align: center;
     font-family: 'Luckiest Guy', cursive;
     position: relative;
     margin: auto;
-    height: 420px;
+    height: 380px;
     width: 500px;
-    border-radius: 10px;
+    border-radius: 80px;
     padding-top: 15px;
     padding-bottom: 1px;
-    border: 1px solid black;
-    background-color: #CCFF99;
+    border: 2px solid #ff8533;;
+    background-color: #6bcc8b;
 }
 
 /*------------timer info block----------*/
-
 #timer {
     font-size: .7rem;
     text-align: center;
     font-family: 'Luckiest Guy', cursive;
     position: relative;
     margin: auto;
+    margin-top: 50px;
     height: 88px;
     width: 200px;
-    border-radius: 10px;
+    border-radius: 80px;
     padding-top: 5px;
-    border: 1px solid black;
-    background-color: #CCFF99;
+    border: 2px solid #ff8533;;
+    background-color: #6bcc8b;
 }
 
 
-/*--------Button Styling--------*/
-
-button {
-
-    font-family: 'Luckiest Guy', cursive;
+/*-------Info Styling----------*/
+.info-text {
+    font-size: 1.2rem;
 }
 
 
-.info {
-    font-size: 0.4rem;
-}
-}
+/*---------Button Styling---------*/
+.btn {
+        font-family: 'Luckiest Guy', cursive;
+        font-size: 1.3rem;
+        color: #ff8533;
+        padding: 5px;
+        padding-bottom: 1px;
+        background-color: #ffe0cc;
+        border: solid 2px #ff8533;
+        border-radius: 80px;
+    }
