@@ -1,4 +1,4 @@
-# Match that Dough!
+# Match Those Nuts!
 
 ## About
 
@@ -49,17 +49,29 @@ there was no viable way to make all the cards fit down into smaller screens.
 
 ## Testing
 
-Testing 
+Developed on Macbook Air with Chrome Browser
+
+Game was tested on:
+* Macbook Air
+* Ipad Pro (meant to be played on this)
+* Imac 21.5"
+
+Chrome Developer Tools was used to make sure game worked properly.
+Several friends were asked to solve game, error check.
+
+Manual testing:
+Clicked on overlay over the whole window area with no error
+Clicking multiple cards at once.
+Checking for grammar, syntax and spelling mistakes in game, code or comments.
 
 
-
-### Code Validation
-* Validated the HTML code with [W3C](https://validator.w3.org/#validate_by_input) and no error found.
+## Code Validation
+* Validated the HTML code with [W3C](https://validator.w3.org/#validate_by_input) and no significant error found.
 * Validated the CSS code with [W3C](https://jigsaw.w3.org/css-validator/#validate_by_input) and no error found.
 
 ## Deployment
 This project is hosted using GitHub pages, deployed from the master branch. The site will update automatically upon new commits to the master branch. To deploy the project correctly on GitHub pages, the landing site must he named *index.html*
 
-If you want run the project locally you need to clone the repository directly into your favorite editor by writing to the terminal the following: `git clone https://github.com/milka77/ms2_memorygame.git`.
+If you want run the project locally you need to clone the repository directly into your favorite editor by writing to the terminal the following: `git clone https://github.com/diomcferreira/Match-That-Dough-MS2`.
 
 
