@@ -3,6 +3,7 @@ const cards = document.querySelectorAll('.memory-card');
 let hasFlippedCard = false;
 let lockBoard = false;
 let firstCard, secondCard;
+let moveCounter = 0;
 
 function flipCard() {
   if (lockBoard) return;
@@ -26,7 +27,7 @@ function checkForMatch() {              //card matching
     let isMatch = firstCard.dataset.image === secondCard.dataset.image;
         isMatch ? disableCards() : unflipCards(); 
         moveCounter++;
-        $('#moves').html(moveCounter);   //if match
+        $('#moves').html(moveCounter);   
 }
 
 function disableCards() {
