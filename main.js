@@ -24,8 +24,9 @@ checkForMatch();
 
 function checkForMatch() {              //card matching 
     let isMatch = firstCard.dataset.image === secondCard.dataset.image;
-
-    isMatch ? disableCards() : unflipCards();    //if match
+        isMatch ? disableCards() : unflipCards(); 
+        moveCounter++;
+        $('#moves').html(moveCounter);   //if match
 }
 
 function disableCards() {
@@ -111,7 +112,7 @@ function refreshPage(){
 var i = 0;
 
 function Count() {
-    document.getElementById("output").innerHTML = i++ + 1;
+    document.getElementById("output").innerHTML = i++ +1;
 }
 
 
