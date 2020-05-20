@@ -23,6 +23,11 @@ there was no viable way to make all the cards fit down into smaller screens.
 
 ## Wireframes
 
+WireFrames - https://github.com/diomcferreira/Match-That-Dough-MS2/tree/master/wireframes
+
+The wireframes provided are not exactly as the game came out after development, since there is no popup for game start or end. But the overall look of the game stayed pretty much the same,
+so I saw no need to create new wireframes.
+
 ### User Stories
 * The user can see the instructions on the left side of the game. They can play a game right away to practice or start the timer and go for a timed run. 
 * The user should be able to click any of the cards which are facing down to flip it over and try to find the right pairs. 
@@ -88,7 +93,7 @@ All photos in this project were used with permission and/or taken by me for this
 The inspiration for this project was from the shop I work at - My Ugly Baby. I thought I could do something fun that customers could play and drive attention to our brand and business.
 
 Special thanks to:
-Everyone I work with
-Jorgen for hiring me
-Code Institute
-Caroline Rodvik for putting up with me talking about this project for a long time
+* Everyone I work with
+* Jorgen for hiring me
+* Code Institute
+* Caroline Rodvik for putting up with me talking about this project for a long time
